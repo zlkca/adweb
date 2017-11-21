@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+
+//
+// Wells
+// --------------------------------------------------
+
+
+// Base class
+.well {
+  padding-bottom: 93px;
+  padding-top: 107px;
+}
+
+.well2 {
+  padding-bottom: 112px;
+  padding-top: 105px;
+}
+
+.well3 {
+  padding-bottom: 74px;
+  padding-top: 70px;
+  &--ins{
+    padding-bottom: 90px;
+  }
+}
+
+.well4 {
+  padding-bottom: 100px;
+  padding-top: 105px;
+}
+
+.well5 {
+  padding-bottom: 112px;
+  padding-top: 109px;
+}
+
+.well6 {
+  padding-bottom: 42px;
+  padding-top:95px;
+  &--mod{
+    padding-top: 0;
+  }
+}
+
+
+.well7 {
+  padding-bottom: 42px;
+  padding-top:64px;
+}
+
+
+.well8 {
+  padding-bottom: 95px;
+  padding-top:100px;
+  &--mod{
+    padding-bottom: 73px;
+  }
+}
+
+
+.well9 {
+  padding-bottom: 95px;
+  padding-top:136px;
+}
