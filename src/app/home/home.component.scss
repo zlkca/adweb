@@ -1,12 +1,39 @@
 #home-carousel{
-	height:446px;
+	height:546px;
 
 	.carousel-inner{
 		height:100%;
-		img{
-			height:100%;
-		}
+        .carousel-item{
+            h2{
+                position: absolute;
+                top: 30%;
+                color: #ffffff;
+                font-size: 50px;
+                width:100%;
+            }
+            p{
+                position: absolute;
+                top: 45%;
+                color: #ffffff;
+                font-size: 20px;
+                width:100%;
+            }
+        }
 	}
-
-
 }
+.text-primary {
+    color: #8dbf41!important;
+}
+.ff-secondary {
+    font-family: 'Raleway', sans-serif;
+}
+h1, .h1 {
+    font-size: 59px;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: 100%;
+    border: 0;
+}
+    
