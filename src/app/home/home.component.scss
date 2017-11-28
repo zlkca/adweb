@@ -36,4 +36,105 @@ img {
     height: 100%;
     border: 0;
 }
-    
+.row {
+    margin-top:20px;
+}
+.well {
+    padding-bottom: 93px;
+    padding-top: 107px;
+}
+.bg-lighter {
+    background: #f6f6f6;
+}
+.price-postion{
+    padding-bottom:93px;
+    padding-top:14px;
+    border-top: 1px solid rgba(0,0,0,0.075);
+}
+.price-title{
+    margin-top:30px;
+    margin-bottom: 20px;
+    text-align:center!important;
+    width: 100%;
+}
+.price-title h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.price-title span{
+    margin-top:10px;
+    font-size:30px;
+    font-weight: 300;
+}
+.pricing-box{
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.075);
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+    font-weight: 300
+}
+.pricing-title{
+    padding: 15px 0;
+    background-color: #F9F9F9;
+    border-radius: 3px 3px 0 0;
+    /*text-shadow: 1px 1px 1px #FFF;*/
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    font-size:25px;
+    font-weight: 500px
+}
+.pricing-price{
+    position: relative;
+    padding: 25px 0;
+    color: #333;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1;
+}
+.pricing-price .after-price {
+    content: '';
+    position: absolute;
+    width: 100px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+}
+.pricing-price span {
+    display: inline-block;
+    vertical-align: top;
+    margin: 7px 3px 0 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+.pricing-price .price-unit{
+    color: #ff0000;
+}
+.pricing-features {
+    border-bottom: 1px solid rgba(0,0,0,0.075);
+}
+.pricing-features li {
+    /*padding: 6px 0;*/
+    font-size: 15px;
+}
+.pricing-action {
+    padding: 15px 30px;
+}
+.link-info{
+    color: #03a9f4;
+    font-size: 18px;
+}
+.content-style{
+    margin-top:20px;
+    margin-left: 12px;
+}
+.team-portrait{
+    padding-left:25px;
+    padding-right:25px;
+}
+ul{
+    list-style-type: none;
+    padding-right:40px;
+}
