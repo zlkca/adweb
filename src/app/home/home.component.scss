@@ -211,3 +211,89 @@ ul{
 .bg-primary {
     background: #8dbf41!important;;
 }
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding:0;
+}
+.portfolio{
+    h3{
+        font-size: 36px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom:50px;
+    }
+    background-image: url(../../assets/home/parallax2.jpg);
+    .post {
+        display: block;
+        position: relative;
+        background: rgba(36, 36, 36, 0.6);
+        img {
+            height: auto;
+        }
+        a {
+            color: #ffffff;
+        }
+    }
+    .post_info {
+        padding: 42px 30px 31px 25px;
+        p {
+            color: #9ca1a8;
+            margin-top: 9px;
+            font-size:13px;
+        }
+        .post_meta {
+            margin-top: 17px;
+            color: #8dbf41;
+            font-size: 12px;
+            font-weight: 400;
+            font-family: "Roboto", Helvetica, Arial, sans-serif;
+        }
+    }
+    .second-row {
+        margin-top: 30px;
+    }
+}
+
+.contact-us{
+    .well6 {
+        padding-bottom: 42px;
+        padding-top: 95px;
+    }
+    .well--skin {
+        padding-top: 42px;
+        padding-bottom: 36px;
+        .contact-info {
+            position: relative;
+            padding-left: 86px;
+            margin-left: 26px;
+            p:first-child {
+                color: #414851;
+                font: 400 20px/24px 'Raleway', sans-serif;
+            }
+            p:last-child , a{
+                font-size:13px;
+                color: #8d939b;
+            }
+        }
+    }
+}
+agm-map {
+    width: 100%;
+    height: 500px;
+}
+.bottom-area{
+    ul, ol {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+    .marked-list li {
+        padding-left: 18px;
+    }
+    a{
+        font-size:13px;
+        color: #8d939b;
+    }
+}
