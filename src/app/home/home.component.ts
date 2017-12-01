@@ -7,8 +7,8 @@
 })
 export class HomeComponent implements OnInit {
     title: string = 'My first AGM project';
-    lat: number = 43.799805;
-    lng: number = -79.353520;
+    lat: number = 43.643726;
+    lng: number = -79.392305;
     zoom:number = 10;
 
     constructor() { }
