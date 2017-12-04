@@ -343,10 +343,10 @@ agm-map {
         margin: 0;
     }
     .marked-list {
-        margin-top: 13px;
+        margin-top: 44px;
     }
     .marked-list li {
-        padding-left: 18px;
+        padding-left: 28px;
         position: relative;
         width:100%;
         margin-top: 5px;
@@ -357,11 +357,10 @@ agm-map {
         font-weight: 400;
         font-family: 'FontAwesome';
         color: #8dbf41;
-        font-size: 12px;
+        font-size: 20px;
         top:0;
-         padding-top: 5px;
     }
-    a{
+    p{
         font-size:13px;
         color: #8d939b;
         font-family: "Roboto", Helvetica, Arial, sans-serif;
@@ -369,5 +368,82 @@ agm-map {
         line-height: 1.84615385;
         padding: 0; 
         margin: 0;
+    }
+}
+.mailform {
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+    label {
+        position: relative;
+        display: inline-block;
+        width: 31.8%;
+        margin-bottom: 0;
+    }
+    .textarea {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    textarea {
+        resize: none;
+        overflow: auto;
+        height: 265px;
+        display: block;
+        width: 100%;
+        margin: 0;
+        -webkit-appearance: none;
+        outline: none;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding: 18px 20px 15px 18px;
+        line-height: 20px;
+        color: #8d939b;
+        background: transparent;
+        border: 1px solid #b1b1b1;
+        font-weight: 400;
+        border-radius: 0;
+    }
+    input {
+            display: block;
+            width: 100%;
+            margin: 0;
+            -webkit-appearance: none;
+            outline: none;
+            font-family: "Roboto", Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            padding: 18px 20px 15px 18px;
+            line-height: 20px;
+            color: #8d939b;
+            background: transparent;
+            border: 1px solid #b1b1b1;
+            font-weight: 400;
+            height: 54px;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+    }
+    .mfControls {
+        margin-top: 35px;
+        word-spacing: 10px;
+        text-align: center;
+    }
+    .mfProgress {
+        position: relative;
+    }
+    .loader{
+        position: absolute;
+    }
+    .btn-sm{
+        min-width: 115px;
+        font-size: 20px;
+        line-height: 1;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px solid #8dbf41;
+        background: transparent;
+        color: #8dbf41;
     }
 }

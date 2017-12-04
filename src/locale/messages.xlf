@@ -2,6 +2,31 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="home" datatype="html">
+        <source>Home<x id="START_TAG_SPAN" ctype="x-span"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="service" datatype="html">
+        <source>Service</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portfolio" datatype="html">
+        <source>Portfolio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">397</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="slideshow001" datatype="html">
         <source>We offer on- site service including Web design, development, setting and maintenance</source>
         <context-group purpose="location">
@@ -119,6 +144,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hostingReg" datatype="html">
+        <source>Hosting Register and Deployment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="programDev" datatype="html">
@@ -245,8 +277,16 @@
       <trans-unit id="contactUs" datatype="html">
         <source>Contact Us</source>
         <context-group purpose="location">
+          <context context-type="sourcefile">app\header\header.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">130</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">155</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
@@ -351,13 +391,6 @@
           <context context-type="linenumber">151</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="02e9e69ddcbf93de9fd38bc4d0f312142658610d" datatype="html">
-        <source>Contact Us</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">155</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="seniorMember" datatype="html">
         <source>Senior Member Web</source>
         <context-group purpose="location">
@@ -407,23 +440,23 @@
           <context context-type="linenumber">191</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="advancedWebDevTech" datatype="html">
-        <source>Advanced Web Development Technoligies</source>
+
+     <trans-unit id="advancedWebDevTech" datatype="html">
+        <source>Advanced Internet development technology</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">200</context>
         </context-group>
       </trans-unit>
       <trans-unit id="adaptToMostPopularDev" datatype="html">
-        <source>
-              Adapt to the most popular development techinoliges, making development faster, higher quality, easy to maintain, lower cost</source>
+        <source>We use the most mainstream Internet development technology to make our development process quicker and easier to maintain with higher quality and lower cost</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">203</context>
         </context-group>
       </trans-unit>
       <trans-unit id="techPlusDesign" datatype="html">
-        <source>Technology + Design</source>
+        <source>Design and Advanced Development Tool</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">213</context>
@@ -431,14 +464,14 @@
       </trans-unit>
       <trans-unit id="globalTech" datatype="html">
         <source> 
-              Globalization Technology Source &amp; Creative Design &amp; Senior Market Experience Support</source>
+              Creative design from the professional team, heavy usage of advanced development tool and the experienced support from senior insider experts</source>>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">216</context>
         </context-group>
       </trans-unit>
       <trans-unit id="passionateAndProfess" datatype="html">
-        <source>Passionate and Professional team</source>
+        <source>Passionate Experienced Professional Team</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">228</context>
@@ -446,7 +479,7 @@
       </trans-unit>
       <trans-unit id="projectManage" datatype="html">
         <source>
-              Project Management, Interface Design, Software Development, Quality Control, Market Promotion</source>
+              We have different experts take charge of every sections including project management, interface design, program development,  quality test and marketing promotion</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">231</context>
@@ -467,26 +500,27 @@
         </context-group>
       </trans-unit>
       <trans-unit id="fromDeskToApp" datatype="html">
-        <source>From desktop to application development, from website desigin to modification and maintenance</source>
+        <source>From desktop to mobile ePlatform development, and from Web consulting to Web maintenance</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">259</context>
         </context-group>
       </trans-unit>
       <trans-unit id="highCustomized" datatype="html">
-        <source>High level customized</source>
+        <source>Highly Customization</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">268</context>
         </context-group>
       </trans-unit>
       <trans-unit id="businessFlexible" datatype="html">
-        <source>Make your business flexible and customize the most suitable E-commerce platform for you business advantages</source>
+        <source>We help your company to customized establish the most suitable E-commerce ePlatform to highlighting your business advantages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">271</context>
         </context-group>
       </trans-unit>
+
       <trans-unit id="innovation4" datatype="html">
         <source>Innovation Persist Quality Reputation</source>
         <context-group purpose="location">
@@ -515,7 +549,7 @@
           <context context-type="linenumber">607</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5e19285f1b3301931502ec8d5da5d71c6f12d7e6" datatype="html">
+      <trans-unit id="janeYang" datatype="html">
         <source>Jane Yang</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
@@ -530,13 +564,13 @@
         </context-group>
       </trans-unit>
       <trans-unit id="speedAndQuality" datatype="html">
-        <source>Speed and Quality are our core advantages</source>
+        <source>Fast and high quality are our core advantages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">319</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4048383c9338c4cf29c9bcb94979e3225987a5e9" datatype="html">
+      <trans-unit id="martinZhang" datatype="html">
         <source>Martin Zhang</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
@@ -555,13 +589,13 @@
         </context-group>
       </trans-unit>
       <trans-unit id="createValue" datatype="html">
-        <source>Create value by focus and passion</source>
+        <source>Create value with your enthusiasm and passion</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">340</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="cd7e85af7e6242206f2d4d5bee927ab7928e5a2a" datatype="html">
+      <trans-unit id="yukiCheng" datatype="html">
         <source>Yuki Cheng</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
@@ -569,7 +603,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="focusOnNeeds" datatype="html">
-        <source>Focus on the needs of the user and create the quality with the heart</source>
+        <source>Focus on customer’s demand, we make high quality products attentively</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">363</context>
@@ -596,15 +630,8 @@
           <context context-type="linenumber">389</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="portfolio" datatype="html">
-        <source>Portfolio</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">397</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="xiangwang" datatype="html">
-        <source>像罔</source>
+        <source>xiangwang</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">407</context>
@@ -650,24 +677,6 @@
           <context context-type="linenumber">439</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5efb794e33e04bf3c54af1963ac62fee4dd697de" datatype="html">
-        <source>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">469</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">498</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1dc6607b2e2f82c04523564fdfadde412049b00c" datatype="html">
-        <source>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">529</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="address" datatype="html">
         <source>Address</source>
         <context-group purpose="location">
@@ -696,95 +705,11 @@
           <context context-type="linenumber">610</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ourService" datatype="html">
-        <source>Our Service</source>
+      <trans-unit id="contactWays" datatype="html">
+        <source>Contact Ways</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">615</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="webConsulting" datatype="html">
-        <source>Web Consulting</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">621</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cusProgram" datatype="html">
-        <source>Custom Program development</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">624</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="searchOptimization" datatype="html">
-        <source>Search Optimization</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">627</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="webMaintemance" datatype="html">
-        <source>Web Maintenance</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">630</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="webProm" datatype="html">
-        <source>Web Promotion</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">633</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="domainHosting" datatype="html">
-        <source>Domain &amp; Hosting &amp; Email</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">636</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="customerService" datatype="html">
-        <source>Customer Service</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">641</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="downloads" datatype="html">
-        <source>Downloads</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">644</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="faq" datatype="html">
-        <source>FAQ</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">647</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="techSupport" datatype="html">
-        <source>Technical Support</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">650</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="onlineConsultation" datatype="html">
-        <source>Online Consultation</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">658</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="payment" datatype="html">
-        <source>payment</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">661</context>
+          <context context-type="linenumber">654</context>
         </context-group>
       </trans-unit>
     </body>
