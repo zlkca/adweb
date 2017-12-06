@@ -35,8 +35,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="slideshowContent001" datatype="html">
-        <source>We provide you mature full site desktop, tablet and mobile Web solution to help you establish your Website or E-commerce Platform rapidly. We focus on innovation, and 
-        persist quality and reputation first</source>
+        <source>We provide you mature full site desktop, tablet and mobile Web solution to help you establish your Website or E-commerce Platform rapidly. 
+        <x id="LINE_BREAK" ctype="lb"/>We focus on innovation, and persist quality and reputation first</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">29</context>
@@ -609,27 +609,6 @@
           <context context-type="linenumber">363</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="be074b37a2ed7633fd9c8d4fe9d9a3b009a93fe4" datatype="html">
-        <source>Julia Berzkalna</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">384</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="68fcb21e324c1866f0b4057263272c9d04cab649" datatype="html">
-        <source>HR Manager</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">387</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2771f0071f68b7156e45686e7ea31a6762bbc934" datatype="html">
-        <source>Praesent vestibulum molestie lacus aenean nonummy hendrerit mauris phasel Fusce suscipit varius mi. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">app\home\home.component.ts</context>
-          <context context-type="linenumber">389</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="xiangwang" datatype="html">
         <source>xiangwang</source>
         <context-group purpose="location">
@@ -637,8 +616,8 @@
           <context context-type="linenumber">407</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="c6171b2cc9df6c7799f8e3dfcee2fbee13e5c3a8" datatype="html">
-        <source>像罔高端线上摄影作品交易平台，以线上电子防伪功能为特色</source>
+      <trans-unit id="xiangwangdetail" datatype="html">
+        <source>A high end online trading platform for photography with forgery distinguishability feature.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">410</context>
@@ -651,8 +630,8 @@
           <context context-type="linenumber">413</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6267d540d737d8691036483db5d83a710b7e983f" datatype="html">
-        <source>Excepteur sint occaecaton</source>
+      <trans-unit id="particleTech" datatype="html">
+        <source>Particle Technology Research Center</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">436</context>
@@ -670,8 +649,8 @@
           <context context-type="linenumber">526</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="41255a4901e932a1cd522fb4d98547a596eec95f" datatype="html">
-        <source>Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</source>
+      <trans-unit id="particleTechDetail" datatype="html">
+        <source>Particle Technology Research Center belongs to the Department of Chemical and Biochemical Engineering in Western University, a top Canadian University.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">439</context>
@@ -690,12 +669,28 @@
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">572</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">660</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">692</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="email" datatype="html">
         <source>Email</source>
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">583</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">663</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">686</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ourMission" datatype="html">
@@ -710,6 +705,27 @@
         <context-group purpose="location">
           <context context-type="sourcefile">app\home\home.component.ts</context>
           <context context-type="linenumber">654</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">680</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="message" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">700</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="send" datatype="html">
+        <source>send</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app\home\home.component.ts</context>
+          <context context-type="linenumber">706</context>
         </context-group>
       </trans-unit>
     </body>
