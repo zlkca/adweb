@@ -188,7 +188,7 @@ $service_container_height:$service_height - $padding_top;
 .core-section{
     position: relative;
     background-image: url('../../assets/home/parallax1.jpg');
-    height: 432px;
+    height: 452px;
     transform: translate3d(0px, -44.1891px, 0px);
     color: #ffffff;
     padding: 60px 0px;
@@ -213,6 +213,16 @@ $service_container_height:$service_height - $padding_top;
     }
 }
 
+.vision-section{
+    background: #8dbf41;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+    .title-lg, .title-md{
+        color:#ffffff;
+    }
+}
 // h1, .h1 {
 //     font-size: 59px;
 // }
