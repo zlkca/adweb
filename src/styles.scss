@@ -1,64 +1,233 @@
 /* You can add global styles to this file, and also import other style files */
+.price-section{
+    padding-bottom:93px;
+    padding-top:14px;
+    border-top: 1px solid rgba(0,0,0,0.075);
 
-//
-// Wells
-// --------------------------------------------------
+    .price-title{
+        margin-top:30px;
+        margin-bottom: 20px;
+        text-align:center;
+        width: 100%;
+    }
 
+    .price-box{
+        min-height:480px;
+        padding: 20px;
+        border: 1px solid rgba(0,0,0,0.075);
+        border-radius: 1px;
+        text-align: center;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-color: #F5F5F5;
+        font-weight: 300;
 
-// Base class
-.well {
-  padding-bottom: 93px;
-  padding-top: 107px;
+        .price-unit{
+            color: #ff0000;
+        }
+
+        .price{
+            position: relative;
+            padding: 25px 0px;
+            color: #333;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 1;
+        }
+
+        .pricing-features{
+            height: 280px;
+            ul{ 
+                padding-left:10px;
+                -webkit-padding-start:10px;
+
+                li{
+                    text-align:left;
+                    padding: 0;
+                    list-style: none;
+                    margin: 0;
+                }
+            }
+        }
+
+        .pricing-action {
+            padding: 15px 30px;
+        }
+    }
 }
 
-.well2 {
-  padding-bottom: 112px;
-  padding-top: 105px;
+.portfolio-section{
+    padding-top:30px;
+    padding-bottom:30px;
+
+    .title-lg, .title-md{
+        color:#ffffff;
+        text-align:center;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    .title-md{
+        text-align:left;
+    }
+
+    .title-md:hover{
+        color: #8dbf41;
+    }
+
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .post_info {
+        padding: 42px 30px 31px 25px;
+
+        p {
+            color: #9ca1a8;
+            font-family: "Microsoft Yahei";
+            font-size:13px;
+            font-weight: 300;
+            margin-top: 9px;
+        }
+    }
+
+    .post_meta {
+        margin-top: 17px;
+        color: #8dbf41;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+    }
+
+    .portfolio {
+        background: rgba(36, 36, 36, 0.6);
+        margin-top:20px;
+    }
+}
+agm-map {
+  height: 400px;
 }
 
-.well3 {
-  padding-bottom: 74px;
-  padding-top: 70px;
-  &--ins{
-    padding-bottom: 90px;
-  }
+.contact-section{
+    padding-top:30px;
+
+    ul{
+        list-style-type:none;
+        margin-top:20px;
+        padding-left:5px;
+    }
+
+    .fa{
+        font-size:30px;
+        color:#8dbf41;
+        p{
+            font-family: "Microsoft Yahei";
+            font-weight: 300;
+            font-size:13px;
+            color:#8d939b;
+        }
+
+        .title-md{
+            font-size:20px;
+            color:0;
+        }
+    }
+
+    .fa-envelope{
+        font-size:20px;
+    }
 }
 
-.well4 {
-  padding-bottom: 100px;
-  padding-top: 105px;
-}
-
-.well5 {
-  padding-bottom: 112px;
-  padding-top: 109px;
-}
-
-.well6 {
-  padding-bottom: 42px;
-  padding-top:95px;
-  &--mod{
-    padding-top: 0;
-  }
-}
-
-
-.well7 {
-  padding-bottom: 42px;
-  padding-top:64px;
-}
-
-
-.well8 {
-  padding-bottom: 95px;
-  padding-top:100px;
-  &--mod{
-    padding-bottom: 73px;
-  }
-}
-
-
-.well9 {
-  padding-bottom: 95px;
-  padding-top:136px;
+.mailform {
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    label {
+        position: relative;
+        display: inline-block;
+        width: 32.9%;
+        margin-bottom: 0;
+    }
+    .textarea {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    textarea {
+        resize: none;
+        overflow: auto;
+        height: 265px;
+        display: block;
+        width: 100%;
+        margin: 0;
+        -webkit-appearance: none;
+        outline: none;
+        font-family: "Roboto", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        padding: 18px 20px 15px 18px;
+        line-height: 20px;
+        color: #8d939b;
+        background: transparent;
+        border: 1px solid #b1b1b1;
+        font-weight: 400;
+        border-radius: 0;
+    }
+    input {
+            display: block;
+            width: 100%;
+            margin: 0;
+            -webkit-appearance: none;
+            outline: none;
+            font-family: "Roboto", Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            padding: 18px 20px 15px 18px;
+            line-height: 20px;
+            color: #8d939b;
+            background: transparent;
+            border: 1px solid #b1b1b1;
+            font-weight: 400;
+            height: 54px;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+    }
+    .mfControls {
+        margin-top: 35px;
+        word-spacing: 10px;
+        text-align: center;
+    }
+    .mfProgress {
+        position: relative;
+    }
+    .loader{
+        position: absolute;
+    }
+    .btn-sm{
+        min-width: 115px;
+        font-size: 20px;
+        line-height: 1;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px solid #8dbf41;
+        background: transparent;
+        color: #8dbf41;
+    }
 }

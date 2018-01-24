@@ -10,17 +10,35 @@ import { HomeComponent } from './home/home.component';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ServiceComponent } from './service/service.component';
 
 const appRoutes: Routes = [
   // { path: 'crisis-center', component: CrisisListComponent },
   // { path: 'hero/:id',      component: HeroDetailComponent },
   {
-    path: 'heroes',
+    path: 'home',
     component: HomeComponent,
     data: { title: 'Home' }
   },
+  {
+    path: 'service',
+    component: ServiceComponent,
+    data: { title: 'Services' }
+  },
+    {
+    path: 'portfolio',
+    component: PortfolioComponent,
+    data: { title: 'Portfolio' }
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+    data: { title: 'Contact Us' }
+  },
   { path: '',
-    redirectTo: '/heroes',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   // { path: '**', component: PageNotFoundComponent }
@@ -31,7 +49,10 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    PortfolioComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,

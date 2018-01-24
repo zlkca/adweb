@@ -1,0 +1,81 @@
+
+<section class="map-section">
+    <!-- google map component -->
+    <agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+      <agm-marker [latitude]="lat" [longitude]="lng">
+         <agm-snazzy-info-window [maxWidth]="400" [closeWhenOthersOpen]="true">
+          <ng-template>
+            352 Front St W suite-2301, Toronto, ON
+          </ng-template>
+        </agm-snazzy-info-window>
+      </agm-marker>
+    </agm-map>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <h3 class="title-bg" i18n="@@contactUs">Contact Us</h3>
+        <ul>
+          <li>
+            <span class="fa fa-map-marker"></span>
+            <span class="title-md" i18n="@@address">Address</span>
+            <p>352 Front St W suite-2301, Toronto, ON, Canada.</p>
+          </li>
+          <li>
+            <span class="fa fa-mobile"></span>
+            <span class="title-md" i18n="@@phones">Phones</span>
+            <p>+519-9320586</p>
+          </li>
+          <li>
+            <span class="fa fa-envelope"></span>
+            <span class="title-md" i18n="@@email">Email</span>
+            <p>support@yocompute.com</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-9 col-sm-9 col-xs-12">
+
+        <div class="container">
+          <h3 class="title-bg" i18n="@@contactUs">Contact Form</h3>
+          <p>We will response your ASAP.</p>
+          <form class='mailform' method="post" action="bat/rd-mailform.php">
+            <input type="hidden" name="form-type" value="contact"/>
+            <fieldset>
+              <label data-add-placeholder=""> <input type="text"
+                                                     name="name"
+                                                     i18n-placeholder="@@name"
+                                                     placeholder="Name"
+                                                     data-constraints="@LettersOnly @NotEmpty"/> </label>
+
+              <label data-add-placeholder=""> <input type="text"
+                                                     name="email"
+                                                     i18n-placeholder="@@email"
+                                                     placeholder="Email"
+                                                     data-constraints="@Email @NotEmpty"/> </label>
+
+              <label data-add-placeholder=""> <input type="text"
+                                                     name="phone"
+                                                     i18n-placeholder="@@phones"
+                                                     placeholder="Phones"
+                                                     data-constraints="@Phone"/> </label>
+
+              <label data-add-placeholder="" class="textarea">
+                                              <textarea name="message" 
+                                                        i18n-placeholder="@@message"
+                                                        placeholder="Message"
+                                                        data-constraints="@NotEmpty"></textarea> </label>
+
+              <div class="mfControls text-center">
+                <button class="btn btn-sm" type="submit" i18n="@@send">send</button>
+                <!-- <button class="btn btn-default" type="reset">Reset</button> -->
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
