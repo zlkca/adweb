@@ -1,61 +1,69 @@
-/*==================  Stuck menu  ======================*/
-$stuck-bg: #fff;
-$stuck-bc: #555;
-
-.stuck-menu {
-  padding: 42px 0px 25px;
-}
-
-.isStuck {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background: $stuck-bg;
-  z-index: 999;
-  box-shadow: 0 1px 2px #bbb;
-
-  .navbar-header{
+ul.navbar-nav {
     float: left;
-    position: relative;
-    z-index: 9999;
-    .navbar-brand{
-      padding-left: 70px;
-      margin-top: 8px;
-    }
+    margin-bottom: 0px;
+  li.nav-item{
+    list-style-type:none;
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .isStuck {
-    display: none !important;
-  }
-}
+// /*==================  Stuck menu  ======================*/
+// $stuck-bg: #fff;
+// $stuck-bc: #555;
 
-.isStuck .sf-menu ul{
-	top: 30px;
-}
+// .stuck-menu {
+//   padding: 42px 0px 25px;
+// }
 
-.isStuck .sf-menu ul ul{
-	top: 0;
-}
+// .isStuck {
+//   padding-top: 10px;
+//   padding-bottom: 10px;
+//   background: $stuck-bg;
+//   z-index: 999;
+//   box-shadow: 0 1px 2px #bbb;
 
-.navbar-nav {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  line-height: 1;
-  font-weight: 400;
-  margin-top: 8px;
-}
-.navbar-brand{
-  position: relative;
-  color: #414851;
-  display: inline-block;
-  text-align: left;
-  padding-left: 84px;
-  margin-right: 500px;
-  font-size: 35px;
-  font-weight: 500;
-}
-li{
-  margin-left: 25px;
-}
+//   .navbar-header{
+//     float: left;
+//     position: relative;
+//     z-index: 9999;
+//     .navbar-brand{
+//       padding-left: 70px;
+//       margin-top: 8px;
+//     }
+//   }
+// }
+
+// @media only screen and (max-width: 992px) {
+//   .isStuck {
+//     display: none !important;
+//   }
+// }
+
+// .isStuck .sf-menu ul{
+// 	top: 30px;
+// }
+
+// .isStuck .sf-menu ul ul{
+// 	top: 0;
+// }
+
+// .navbar-nav {
+//   margin: 0;
+//   font-family: 'Raleway', sans-serif;
+//   font-size: 20px;
+//   line-height: 1;
+//   font-weight: 400;
+//   margin-top: 8px;
+// }
+// .navbar-brand{
+//   position: relative;
+//   color: #414851;
+//   display: inline-block;
+//   text-align: left;
+//   padding-left: 84px;
+//   margin-right: 500px;
+//   font-size: 35px;
+//   font-weight: 500;
+// }
+// li{
+//   margin-left: 25px;
+// }

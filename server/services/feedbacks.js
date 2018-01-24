@@ -21,7 +21,9 @@ module.exports = function(){
 		//--------------------------------------------------------------------------------------
 		insert: function(req, rsp){
 			var body = req.body;
-
+			
+			console.log('insert');
+			console.log(body);
 			_db.insert('feedbacks', body, function(err, results, fields){
 				 return rsp.json({ success: true, 'feedbacks': results});
 			});

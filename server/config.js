@@ -33,5 +33,5 @@ module.exports = {
 		algorithm: 'HS256',
 		expiresInSeconds: expiry / 1000
 	},
-	privateKeyPath: rootPath + 'server/rsa_1024_priv.pem'
+	privateKeyPath: 'server/rsa_1024_priv.pem'
 }
