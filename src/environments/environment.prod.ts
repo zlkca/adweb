@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+    API_URL:"http://rdsource.com/5001/",
+    production: true
 };
