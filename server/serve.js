@@ -1,7 +1,10 @@
 const http = require('http');
 const express = require('express')
-const app = express()
+//const cors = require('cors')
 const cfg = require('./config')
+
+const app = express()
+
 
 const SERVER_NAME = 'adweb'
 const SERVER_PORT = 5001

@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {Headers, Response, RequestOptions} from '@angular/http';
-import {Observable} from 'rxjs/Observable';
+//import { Location } from '@angular/common';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Headers, Response, RequestOptions } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 import {environment} from '../../environments/environment';
@@ -13,7 +14,7 @@ export class UserService {
     constructor(private http:HttpClient) { }
 
     public postFeedback(username:string, email:string, phone:string, message:string):Observable<any>{
-        const url = this.API_URL + 'feedbacks';
+        const url = window.location.origin + '/feedbacks';
         let self = this;
         let headers = new HttpHeaders().set('Content-Type', "application/json");
         let options = { 'headers': headers };
