@@ -3,19 +3,22 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
 //import { AppRoutingModule } from './app-routing.module';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServiceComponent } from './service/service.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { ValidateDirective } from './shared/validate.directive';
 
 const appRoutes: Routes = [
   // { path: 'crisis-center', component: CrisisListComponent },
@@ -55,7 +58,8 @@ const appRoutes: Routes = [
     HomeComponent,
     ContactComponent,
     PortfolioComponent,
-    ServiceComponent
+    ServiceComponent,
+    ValidateDirective
   ],
   imports: [
     BrowserModule,
@@ -67,6 +71,7 @@ const appRoutes: Routes = [
     }),
     AgmSnazzyInfoWindowModule,
     AngularFontAwesomeModule,
+    NgbModule.forRoot(),
     HttpClientModule,
     FormsModule
   ],
