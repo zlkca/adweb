@@ -40,7 +40,7 @@ app.use(express.static(__dirname + '/../dist'));
 var Feedback = require('./services/feedbacks');
 var fb = Feedback();
 app.post('/feedbacks', fb.insert);
-
+//app.options('/feedbacks', fb.options);
 
 //app.listen(SERVER_PORT, () => console.log('Server setup'))
 app.set('port', process.env.PORT || SERVER_PORT)

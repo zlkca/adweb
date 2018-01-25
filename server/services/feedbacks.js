@@ -7,6 +7,7 @@
 'use strict';
 
 var DB = require('../database/mysql');
+var cfg = require('../config');
 
 module.exports = function(){
 	
@@ -19,14 +20,18 @@ module.exports = function(){
 		// Arguments:
 		// 		req --- req object, eg {body:{query:{from:'A', to:'B'}}}
 		//--------------------------------------------------------------------------------------
-		insert: function(req, rsp){
+		insert: function(req, res){
+			res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
+  			res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 			var body = req.body;
-			
-			console.log('insert');
-			console.log(body);
 			_db.insert('feedbacks', body, function(err, results, fields){
-				 return rsp.json({ success: true, 'feedbacks': results});
+				 return res.json({ success: true, 'feedbacks': results});
 			});
+		},
+		options: function(req, res){
+			res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
+  			res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  			return res.json({ success: true});
 		}
 	}
 }

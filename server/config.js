@@ -15,16 +15,17 @@ module.exports = {
 	port:5001,
 	dbHost: 'localhost',
 	dbName: project,
-	dbUsername:'zlk',
-	dbPassword:'mypasswd',
+	dbUsername:'root',
+	dbPassword:'',
 	dbPort: '27017',
 	apiUrl: '/api',
+	ALLOW_ORIGIN:"http://localhost:5001",
 	sessionPrefix: project,
 	sessionExpiry: expiry, // milliseconds
 	//'imageRoot' : imgRoot,
 	//'docRoot': docRoot,
 	sendgrid:{
-		username:'zlk',
+		username:'root',
 		password:'mypassword'
 	},
 	passResetEmail: 'MyPasswordService@MyDomain.com',
