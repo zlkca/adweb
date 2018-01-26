@@ -35,6 +35,7 @@
               </label>
               
               <ngb-alert *ngIf="successMessage" type="success" (close)="successMessage = null">{{ successMessage }}</ngb-alert>
+            <ngb-alert *ngIf="failMessage" type="danger" (close)="failMessage = null">{{ failMessage }}</ngb-alert>
 
               <div class="mfControls text-center">
                 <button class="btn btn-sm" type="submit" [disabled]="!feedbackForm.form.valid" i18n="@@send">send</button>
