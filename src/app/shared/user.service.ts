@@ -14,7 +14,7 @@ export class UserService {
     constructor(private http:HttpClient) { }
 
     public postFeedback(username:string, email:string, phone:string, message:string):Observable<any>{
-        const url = window.location.origin + '/feedbacks';
+        const url = this.API_URL + 'feedbacks';
         let self = this;
         let headers = new HttpHeaders().set('Content-Type', "application/json");
         let options = { 'headers': headers };
