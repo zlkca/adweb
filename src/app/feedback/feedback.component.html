@@ -1,0 +1,45 @@
+<div class="container">
+          <h3 class="title-bg" i18n="@@contactUs">Contact Form</h3>
+          <p>We will response your ASAP.</p>
+
+          <form class="mailform" #feedbackForm="ngForm" (ngSubmit)="onSubmitFeedback()">
+            <input type="hidden" name="form-type" value="contact"/>
+            <fieldset>
+              <label data-add-placeholder="">
+                <input type="text" name="name" i18n-placeholder="@@name" placeholder="Name"
+                       data-constraints="@LettersOnly @NotEmpty" [(ngModel)]="username" />
+              </label>
+
+              <label data-add-placeholder=""> <input type="text"
+                                                     name="email"
+                                                     i18n-placeholder="@@email"
+                                                     placeholder="Email"
+                                                     data-constraints="@Email @NotEmpty"
+                                                     [(ngModel)]="email" invalidChar/>
+              </label>
+
+              <label data-add-placeholder=""> <input type="text"
+                                                     name="phone"
+                                                     i18n-placeholder="@@phones"
+                                                     placeholder="Phones"
+                                                     data-constraints="@Phone"
+                                                     [(ngModel)]="phone" />
+              </label>
+
+              <label data-add-placeholder="" class="textarea">
+                                              <textarea name="message" 
+                                                        i18n-placeholder="@@message"
+                                                        placeholder="Message"
+                                                        data-constraints="@NotEmpty"
+                                                        [(ngModel)]="message"></textarea>
+              </label>
+              
+              <ngb-alert *ngIf="successMessage" type="success" (close)="successMessage = null">{{ successMessage }}</ngb-alert>
+
+              <div class="mfControls text-center">
+                <button class="btn btn-sm" type="submit" [disabled]="!feedbackForm.form.valid" i18n="@@send">send</button>
+                <!-- <button class="btn btn-default" type="reset">Reset</button> -->
+              </div>
+            </fieldset>
+          </form>
+        </div>

@@ -18,7 +18,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServiceComponent } from './service/service.component';
 
 import {HttpClientModule} from '@angular/common/http';
-import { ValidateDirective } from './shared/validate.directive';
+import { FeedbackComponent } from './feedback/feedback.component';
 
 const appRoutes: Routes = [
   // { path: 'crisis-center', component: CrisisListComponent },
@@ -59,7 +59,7 @@ const appRoutes: Routes = [
     ContactComponent,
     PortfolioComponent,
     ServiceComponent,
-    ValidateDirective
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

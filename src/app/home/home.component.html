@@ -451,44 +451,7 @@
       </div>
 
       <div class="col-md-9 col-sm-9 col-xs-12">
-
-        <div class="container">
-          <h3 class="title-bg" i18n="@@contactUs">Contact Form</h3>
-          <p>We will response your ASAP.</p>
-          <form class='mailform' method="post" action="bat/rd-mailform.php">
-            <input type="hidden" name="form-type" value="contact"/>
-            <fieldset>
-              <label data-add-placeholder=""> <input type="text"
-                                                     name="name"
-                                                     i18n-placeholder="@@name"
-                                                     placeholder="Name"
-                                                     data-constraints="@LettersOnly @NotEmpty"/> </label>
-
-              <label data-add-placeholder=""> <input type="text"
-                                                     name="email"
-                                                     i18n-placeholder="@@email"
-                                                     placeholder="Email"
-                                                     data-constraints="@Email @NotEmpty"/> </label>
-
-              <label data-add-placeholder=""> <input type="text"
-                                                     name="phone"
-                                                     i18n-placeholder="@@phones"
-                                                     placeholder="Phones"
-                                                     data-constraints="@Phone"/> </label>
-
-              <label data-add-placeholder="" class="textarea">
-                                              <textarea name="message" 
-                                                        i18n-placeholder="@@message"
-                                                        placeholder="Message"
-                                                        data-constraints="@NotEmpty"></textarea> </label>
-
-              <div class="mfControls text-center">
-                <button class="btn btn-sm" type="submit" i18n="@@send">send</button>
-                <!-- <button class="btn btn-default" type="reset">Reset</button> -->
-              </div>
-            </fieldset>
-          </form>
-        </div>
+        <app-feedback></app-feedback>
       </div>
     </div>
   </div>
