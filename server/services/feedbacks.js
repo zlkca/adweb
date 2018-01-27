@@ -21,17 +21,17 @@ module.exports = function(){
 		// 		req --- req object, eg {body:{query:{from:'A', to:'B'}}}
 		//--------------------------------------------------------------------------------------
 		insert: function(req, res){
-			res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
-  			res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+			//res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
+  			//res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 			var body = req.body;
 			_db.insert('feedbacks', body, function(err, results, fields){
 				 return res.json({ success: true, 'feedbacks': results});
 			});
 		},
-		options: function(req, res){
-			res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
-  			res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  			return res.json({ success: true});
-		}
+		// options: function(req, res){
+		// 	res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
+  // 			res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  // 			return res.json({ success: true});
+		// }
 	}
 }
