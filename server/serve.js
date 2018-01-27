@@ -1,13 +1,13 @@
 const http = require('http');
 const express = require('express')
-const cors = require('cors')
+//const cors = require('cors')
 const cfg = require('./config')
 
 const app = express()
 
 
-const SERVER_NAME = 'adweb'
-const SERVER_PORT = 5000
+const SERVER_NAME = 'adweb';
+const SERVER_PORT = parseInt(cfg.port);
 
 // body-parser does not handle multipart bodies
 var bodyParser = require('body-parser');
@@ -37,24 +37,24 @@ app.use(cookieParser('mysecret', {maxAge: 1200*1000}));
 app.use(express.static(__dirname + '/../dist'));
 
 
-var whitelist = ['http://yocompute.com', 'http://www.yocompute.com']
-var corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
-  }
-}
+// var whitelist = ['http://yocompute.com', 'http://www.yocompute.com']
+// var corsOptions = {
+//   origin: function (origin, callback) {
+//     if (whitelist.indexOf(origin) !== -1) {
+//       callback(null, true)
+//     } else {
+//       callback(new Error('Not allowed by CORS'))
+//     }
+//   }
+// }
 //------------------------------------------------------------------------------------------
 //   Feedback module
 //------------------------------------------------------------------------------------------
 var Feedback = require('./services/feedbacks');
 var fb = Feedback();
 
-app.options('/feedbacks', cors(corsOptions));
-app.post('/feedbacks', cors(corsOptions), fb.insert);
+//app.options('/feedbacks', cors(corsOptions));
+app.post('/feedbacks', fb.insert);
 //app.options('/feedbacks', fb.options);
 
 //app.listen(SERVER_PORT, () => console.log('Server setup'))
