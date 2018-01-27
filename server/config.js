@@ -19,7 +19,7 @@ module.exports = {
 	dbPassword:'',
 	dbPort: '27017',
 	apiUrl: '/api',
-	ALLOW_ORIGIN:"http://localhost:5000",
+	ALLOW_ORIGIN:"http://yocompute.com:5000",
 	sessionPrefix: project,
 	sessionExpiry: expiry, // milliseconds
 	//'imageRoot' : imgRoot,
