@@ -7,7 +7,7 @@
 'use strict'
 
 var mode = "";
-var project = 'adweb';
+var project = 'yocompute';
 
 var expiry = 30 * 60 * 1000;
 
@@ -15,7 +15,7 @@ module.exports = {
 	port:5000,
 	dbHost: 'localhost',
 	dbName: project,
-	dbUsername:'root',
+	dbUsername:'zlk',
 	dbPassword:'',
 	dbPort: '27017',
 	apiUrl: '/api',

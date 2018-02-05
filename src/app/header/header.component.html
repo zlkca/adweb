@@ -6,8 +6,7 @@
     </button>
     <a class="navbar-brand" href="#">YoCompute</a>
 
-    <!-- <div class="collapse navbar-collapse" id="navbarContent"> -->
-      <!-- <div class="container"> -->
+    <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" routerLink="home" i18n="@@home">{{'HOME' | translate}}<span class="sr-only">(current)</span></a>
@@ -21,20 +20,26 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="contact" i18n="@@contactUs">{{'CONTACT_US' | translate}}</a>
         </li>
+        <li class="nav-item language-menu">
+          <a class="nav-link" (click)="toEnglish()">English</a>
+        </li>
+        <li class="nav-item language-menu">
+          <a class="nav-link" (click)="toChinese()">中文</a>
+        </li>
       </ul>
-    <!-- </div> -->
-    <!-- </div> -->
-
-
-        <div class="language dropdown">
-          <button class="language-btn" type="button" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-          </button>
-          <div class="dropdown-menu" aria-labelledby="language-dropdown">
-            <a class="dropdown-item" (click)="toEnglish()">English</a>
-            <a class="dropdown-item" (click)="toChinese()">中文</a>
-          </div>
+    </div>
+    
+    <div class="icon-area">
+      <div class="language dropdown">
+        <button class="language-btn" type="button" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-globe" aria-hidden="true"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="language-dropdown">
+          <a class="dropdown-item" (click)="toEnglish()">English</a>
+          <a class="dropdown-item" (click)="toChinese()">中文</a>
         </div>
+      </div>
+    </div>
   </nav>
 
 </header>

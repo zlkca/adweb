@@ -48,6 +48,33 @@ nav{
     }
 
 
+
+
+
+
+@media (min-width:576px) and (max-width: 767px){
+        .mobile{
+            display: block;
+        }
+        .icon-area{
+            display: none;
+        }
+        .language-menu{
+            display:block;
+        }
+    }
+    
+@media (max-width: 575px){
+        .mobile{
+            display: block;
+        }
+        .icon-area{
+            display: none;
+        }
+        .language-menu{
+                display:block;
+        }
+    }
 // /*==================  Stuck menu  ======================*/
 // $stuck-bg: #fff;
 // $stuck-bc: #555;

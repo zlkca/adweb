@@ -6,7 +6,6 @@ import { FormsModule } from '@angular/forms';
 //import { AppRoutingModule } from './app-routing.module';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
@@ -84,7 +83,6 @@ const appRoutes: Routes = [
             deps: [HttpClient]
         }
     }),
-    AngularFontAwesomeModule,
     NgbModule.forRoot(),
     HttpClientModule,
     FormsModule
