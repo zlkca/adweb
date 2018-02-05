@@ -12,7 +12,7 @@ var project = 'adweb';
 var expiry = 30 * 60 * 1000;
 
 module.exports = {
-	port:5001,
+	port:5000,
 	dbHost: 'localhost',
 	dbName: project,
 	dbUsername:'root',
