@@ -38,8 +38,11 @@
     "CONFIRM_PASSWORD":"确认密码",
     "LOGIN":"Login",
     "LOGIN":"登录",
+    
     "USERNAME":"用户名",
     "EMAIL":"邮箱",
+    "PHONE_NUM":"电话号码",
+
     "CREATE":"创建",
     "SIGNUP":"注册",
     "LOGOUT":"退出",
@@ -182,8 +185,9 @@
     "GRAND_TOATL":"总计",
     "SEND":"发送",
     "NAME":"名称",
-    "MESSAGE":"信息",
-    "TIP_MESSAGE":"快速提交您的需求，我们将在24小时内与您联系",
+
+    "MESSAGE":"消息",
+    "MESSAGE_SUBTITLE":"我们将尽快与您联系",
     "INVALID_FORM":"请填写完整信息",
     "SEND_SUCCESSFULLY":"发送成功!",
     "SEND_FAIL":"发送失败!",

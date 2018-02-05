@@ -3,6 +3,135 @@
 $fa-font-path: "../node_modules/font-awesome/fonts";
 @import '~font-awesome/scss/font-awesome.scss';
 
+$border-color:#ccc;
+$text-color:#585858;//#212529
+$text-inverse-color:#fff;
+$primary-color:#003e7e;
+$primary-focus-color:#11759a;
+
+$item-height:40px;
+
+body{
+    .btn-holder{
+        width:100%;
+        min-height:36px;
+        padding-top:15px;
+    }
+
+    .btn{
+        width:100%;
+        height:$item-height;
+        border:1px solid #666; 
+        font-weight:400;
+        min-width: 150px;
+        text-align:center;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+    }
+
+    .btn-primary{
+        background-color:$primary-color;
+        color:$text-inverse-color;
+    }
+
+    .btn-primary:hover{
+        background-color:$primary-focus-color;
+    }
+
+    input, textarea, select{
+      width:100%;
+      border: 1px solid #919191;
+      padding: 10px;
+      border-radius: 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      color: #212529;//#8d939b;
+      background: transparent;
+      // -webkit-appearance: none;
+      outline: none;
+      margin: 0;      
+      font-weight: 400;
+      font-family: "Roboto", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      display:block;
+
+      -webkit-appearance: none; // remove safari inner shadow
+    }
+
+
+    .title-sm{
+        font-weight: 400;
+        font-size: 20px;
+        font-family: Roboto, sans-serif;
+        color:#404040;
+    }
+
+    .title-md{
+        font-weight: 300;
+        font-size: 24px;
+        font-family: Roboto, sans-serif;
+        color:#595959;
+    }
+
+    .title-lg{
+        font-weight: 300;
+        font-size: 2.2em;
+        font-family: Roboto, sans-serif;
+        color:#595959;
+    }
+
+    .label-md{
+      font-size:16px;
+      color:rgb(0, 0, 0);
+    }
+
+    .label-sm{
+      font-size:13px;
+      color:rgb(0, 0, 0);
+    }
+
+    .label-lg{
+      font-size:24px;
+      color:rgb(0, 0, 0);
+    }
+
+    .text-xs{
+        font-weight: 100;
+        font-size: 12px;
+        font-family: Roboto, sans-serif;
+        color:#808080;
+    }
+
+    .text-sm{
+        font-weight: 100;
+        font-size: 14px;
+        font-family: Roboto, sans-serif;
+        color:#808080;
+    }
+
+    .text-md{
+       color:rgb(50,50,50);
+       font-family: Roboto, sans-serif;
+       font-size:16px;
+       font-weight:300; 
+    }
+
+    .text-bg{
+      font-size:18px;
+      font-family: Roboto, sans-serif;
+      color:rgb(34, 34, 34);
+    }
+
+    .text-lg{
+       color:#585858;
+       font-family: Roboto, sans-serif;
+       font-size:24px;
+       font-weight:300; 
+    }
+}
+
 .price-section{
     padding-bottom:93px;
     padding-top:14px;

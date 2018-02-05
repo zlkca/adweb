@@ -12,7 +12,7 @@ var project = 'yocompute';
 var expiry = 30 * 60 * 1000;
 
 module.exports = {
-	port:5000,
+	port:5001,
 	dbHost: 'localhost',
 	dbName: project,
 	dbUsername:'zlk',

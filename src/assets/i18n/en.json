@@ -38,6 +38,8 @@
     "LOGIN":"Login",
     "USERNAME":"Username",
     "EMAIL":"Email",
+    "PHONE_NUM":"Phone Number",
+
     "CREATE":"Create",
     "SIGNUP":"Sign Up",
     "LOGOUT":"Logout",
@@ -178,7 +180,7 @@
     "SEND":"Send",
     "NAME":"Name",
     "MESSAGE":"Message",
-    "TIP_MESSAGE":"Submit your suggestions and questions, and we will contact you in 24 hours.",
+    "MESSAGE_SUBTITLE":"We will reply you ASAP",
     "INVALID_FORM":"Please fill in all the blanks",
     "SEND_SUCCESSFULLY":"Send Successfully!",
     "SEND_FAIL":"Send Fail!",

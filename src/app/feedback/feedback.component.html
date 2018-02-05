@@ -1,46 +1,33 @@
 <div class="container">
-          <h3 class="title-bg" i18n="@@contactUs">Contact Form</h3>
-          <p>We will response your ASAP.</p>
+        <p class="label-sm">{{ 'MESSAGE_SUBTITLE' | translate }}</p>
 
-          <form class="mailform" #feedbackForm="ngForm" (ngSubmit)="onSubmitFeedback()">
+        <form class="feedback-form" #feedbackForm="ngForm" (ngSubmit)="onSubmitFeedback()">
             <input type="hidden" name="form-type" value="contact"/>
-            <fieldset>
-              <label data-add-placeholder="">
-                <input type="text" name="name" i18n-placeholder="@@name" placeholder="Name"
-                       data-constraints="@LettersOnly @NotEmpty" [(ngModel)]="username" />
-              </label>
 
-              <label data-add-placeholder=""> <input type="text"
-                                                     name="email"
-                                                     i18n-placeholder="@@email"
-                                                     placeholder="Email"
-                                                     data-constraints="@Email @NotEmpty"
-                                                     [(ngModel)]="email" invalidChar/>
-              </label>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                  <input type="text" name="name" placeholder="{{ 'NAME' | translate }}" [(ngModel)]="username" />
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <input type="text" name="email" placeholder="{{ 'EMAIL' | translate }}" [(ngModel)]="email" invalidChar/>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                  <input type="text" name="phone" placeholder="{{ 'PHONE_NUM' | translate }}" [(ngModel)]="phone" />
+                </div>
+            </div>
 
-              <label data-add-placeholder=""> <input type="text"
-                                                     name="phone"
-                                                     i18n-placeholder="@@phones"
-                                                     placeholder="Phones"
-                                                     data-constraints="@Phone"
-                                                     [(ngModel)]="phone" />
-              </label>
-
-              <label data-add-placeholder="" class="textarea">
-                                              <textarea name="message" 
-                                                        i18n-placeholder="@@message"
-                                                        placeholder="Message"
-                                                        data-constraints="@NotEmpty"
-                                                        [(ngModel)]="message"></textarea>
-              </label>
+            <div class="row">
+                <div class="col-12">
+                  <textarea name="message" placeholder="{{ 'MESSAGE' | translate }}"
+                        data-constraints="@NotEmpty" [(ngModel)]="message"></textarea>
+                </div>
+            </div>
               
-              <ngb-alert *ngIf="successMessage" type="success" (close)="successMessage = null">{{ successMessage }}</ngb-alert>
+            <ngb-alert *ngIf="successMessage" type="success" (close)="successMessage = null">{{ successMessage }}</ngb-alert>
             <ngb-alert *ngIf="failMessage" type="danger" (close)="failMessage = null">{{ failMessage }}</ngb-alert>
 
-              <div class="mfControls text-center">
-                <button class="btn btn-sm" type="submit" [disabled]="!feedbackForm.form.valid" i18n="@@send">send</button>
-                <!-- <button class="btn btn-default" type="reset">Reset</button> -->
-              </div>
-            </fieldset>
-          </form>
-        </div>
+            <div class="btn-holder">
+              <button class="btn btn-primary" type="submit" [disabled]="!feedbackForm.form.valid">{{ 'SEND' | translate }}</button>
+            </div>
+        </form>
+</div>
