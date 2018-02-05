@@ -12,14 +12,14 @@ var project = 'adweb';
 var expiry = 30 * 60 * 1000;
 
 module.exports = {
-	port:5000,
+	port:5001,
 	dbHost: 'localhost',
 	dbName: project,
 	dbUsername:'root',
 	dbPassword:'',
 	dbPort: '27017',
 	apiUrl: '/api',
-	ALLOW_ORIGIN:"http://yocompute.com:80",
+	ALLOW_ORIGINS:["http://yocompute.com", "http://www.yocompute.com"],
 	sessionPrefix: project,
 	sessionExpiry: expiry, // milliseconds
 	//'imageRoot' : imgRoot,

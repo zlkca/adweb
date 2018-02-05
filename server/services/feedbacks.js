@@ -21,7 +21,10 @@ module.exports = function(){
 		// 		req --- req object, eg {body:{query:{from:'A', to:'B'}}}
 		//--------------------------------------------------------------------------------------
 		insert: function(req, res){
-			res.header("Access-Control-Allow-Origin", cfg.ALLOW_ORIGIN);
+			var origin = req.headers.origin;
+			if(cfg.ALLOW_ORIGINS.indexOf(origin) > -1){
+			   res.header("Access-Control-Allow-Origin", origin);
+			}
   			res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 			var body = req.body;
 			_db.insert('feedbacks', body, function(err, results, fields){
