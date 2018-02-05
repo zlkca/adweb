@@ -1,58 +1,7 @@
 $light-gray: #f6f6f6;
 $padding_top:30px;
 
-.primary-font {
-    font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-}
 
-.title-xl{
-	font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
-    font-size: 58px;
-    font-weight: 300;
-    line-height: 64px;
-	color: #8dbf41;//#9ca1a8;
-}
-
-.title-lg{
-    font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: #9ca1a8;    
-}
-
-.title-bg{
-    font-family: "Microsoft Yahei", 'Raleway', sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 30px;
-    color: #414851;//#8dbf41;
-}
-
-.title-md{
-	font-family: "Microsoft Yahei",'Raleway', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #414851;
-}
-
-.title-sm{
-    font-family: "Microsoft Yahei",'Raleway', sans-serif;
-	line-height:18px;
-	font-size:13px;
-	font-weight:300;
-    color: #414851;
-}
-
-.title-xs{
-    font-family: "Microsoft Yahei", 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 26px;
-    color: #414851;//#8dbf41;
-}
 
 .link{
     color: #8dbf41;
@@ -90,59 +39,6 @@ $padding_top:30px;
         }
     }
 }
-
-
-$service_height:500px;
-$service_container_height:$service_height - $padding_top;
-
-.service-section{
-    height:$service_height;
-    padding-top:30px;
-    background-color:$light-gray;
-
-    img{
-        width:420px;
-    }
-
-	.sub-title{
-        padding-top:38px;
-        text-align:left;
-    }
-
-    .service-groups{
-        padding-top:30px;
-        text-align:left;
-    }
-
-    .service-group{
-        p{
-            line-height:24px;
-            font-size:13px;
-            font-weight:300;
-            color:#8d939b;
-            margin-bottom: 10px;
-        }
-    }
-
-	.primary-text{
-		color: #9ca1a8;
-	}
-	
-	.left-side{
-	   height:$service_container_height;
-	}
-	
-    .right-side{
-        height:$service_container_height;
-        padding-left:28px;
-        padding-right:0px;
-
-        p{
-            display:block;
-        }
-    }
-}
-
 
 
 .core-section{

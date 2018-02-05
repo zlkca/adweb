@@ -60,26 +60,57 @@ body{
       -webkit-appearance: none; // remove safari inner shadow
     }
 
-
-    .title-sm{
-        font-weight: 400;
-        font-size: 20px;
-        font-family: Roboto, sans-serif;
-        color:#404040;
+    .primary-font {
+        font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 300;
     }
 
-    .title-md{
+    .title-xl{
+        font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 58px;
         font-weight: 300;
-        font-size: 24px;
-        font-family: Roboto, sans-serif;
-        color:#595959;
+        line-height: 64px;
+        color: #8dbf41;//#9ca1a8;
     }
 
     .title-lg{
+        font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: #9ca1a8;    
+    }
+
+    .title-bg{
+        font-family: "Microsoft Yahei", 'Raleway', sans-serif;
+        font-size: 25px;
         font-weight: 300;
-        font-size: 2.2em;
-        font-family: Roboto, sans-serif;
-        color:#595959;
+        line-height: 30px;
+        color: #414851;//#8dbf41;
+    }
+
+    .title-md{
+        font-family: "Microsoft Yahei",'Raleway', sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #414851;
+    }
+
+    .title-sm{
+        font-family: "Microsoft Yahei",'Raleway', sans-serif;
+        line-height:18px;
+        font-size:13px;
+        font-weight:300;
+        color: #414851;
+    }
+
+    .title-xs{
+        font-family: "Microsoft Yahei", 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+        color: #414851;//#8dbf41;
     }
 
     .label-md{
@@ -132,61 +163,7 @@ body{
     }
 }
 
-.price-section{
-    padding-bottom:93px;
-    padding-top:14px;
-    border-top: 1px solid rgba(0,0,0,0.075);
 
-    .price-title{
-        margin-top:30px;
-        margin-bottom: 20px;
-        text-align:center;
-        width: 100%;
-    }
-
-    .price-box{
-        min-height:480px;
-        padding: 20px;
-        border: 1px solid rgba(0,0,0,0.075);
-        border-radius: 1px;
-        text-align: center;
-        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-        background-color: #F5F5F5;
-        font-weight: 300;
-
-        .price-unit{
-            color: #ff0000;
-        }
-
-        .price{
-            position: relative;
-            padding: 25px 0px;
-            color: #333;
-            font-weight: 300;
-            font-size: 30px;
-            line-height: 1;
-        }
-
-        .pricing-features{
-            height: 280px;
-            ul{ 
-                padding-left:10px;
-                -webkit-padding-start:10px;
-
-                li{
-                    text-align:left;
-                    padding: 0;
-                    list-style: none;
-                    margin: 0;
-                }
-            }
-        }
-
-        .pricing-action {
-            padding: 15px 30px;
-        }
-    }
-}
 
 .portfolio-section{
     padding-top:30px;
