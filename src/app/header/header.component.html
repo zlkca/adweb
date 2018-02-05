@@ -10,20 +10,31 @@
       <!-- <div class="container"> -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" routerLink="home" i18n="@@home">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" routerLink="home" i18n="@@home">{{'HOME' | translate}}<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="service" i18n="@@service">Service</a>
+          <a class="nav-link" routerLink="service" i18n="@@service">{{'SERVICE' | translate}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="portfolio" i18n="@@portfolio">Portfolio</a>
+          <a class="nav-link" routerLink="portfolio" i18n="@@portfolio">{{'PORTFOLIO' | translate}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="contact" i18n="@@contactUs">Contact</a>
+          <a class="nav-link" routerLink="contact" i18n="@@contactUs">{{'CONTACT_US' | translate}}</a>
         </li>
       </ul>
     <!-- </div> -->
     <!-- </div> -->
+
+
+        <div class="language dropdown">
+          <button class="language-btn" type="button" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="language-dropdown">
+            <a class="dropdown-item" (click)="toEnglish()">English</a>
+            <a class="dropdown-item" (click)="toChinese()">中文</a>
+          </div>
+        </div>
   </nav>
 
 </header>

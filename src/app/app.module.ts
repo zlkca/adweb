@@ -17,8 +17,15 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ServiceComponent } from './service/service.component';
 
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FeedbackComponent } from './feedback/feedback.component';
+
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+
+export function HttpLoaderFactory(http: HttpClient) {
+    return new TranslateHttpLoader(http, '../../assets/i18n/', '.json');
+}
 
 const appRoutes: Routes = [
   // { path: 'crisis-center', component: CrisisListComponent },
@@ -70,6 +77,13 @@ const appRoutes: Routes = [
       apiKey: 'AIzaSyCTdBBGnv3QEyPeGKc0aRhH9Z_wc-Qcd18'
     }),
     AgmSnazzyInfoWindowModule,
+    TranslateModule.forRoot({
+        loader: {
+            provide: TranslateLoader,
+            useFactory: HttpLoaderFactory,
+            deps: [HttpClient]
+        }
+    }),
     AngularFontAwesomeModule,
     NgbModule.forRoot(),
     HttpClientModule,

@@ -1,10 +1,52 @@
-ul.navbar-nav {
-    float: left;
-    margin-bottom: 0px;
-  li.nav-item{
-    list-style-type:none;
-  }
+nav{
+	background-color:#fff;
+	padding-right: 54px;
+	ul.navbar-nav {
+	    float: left;
+	    margin-bottom: 0px;
+	  li.nav-item{
+	    list-style-type:none;
+	  }
+	}
 }
+
+    .language{
+        float:right;
+        margin-left:12px;
+        button{
+            border:none;
+        }
+        .fa-globe {
+            font-size: 28px;
+        }
+        .dropdown-menu{
+            border-radius:0px;
+            min-width:100px;
+            padding-top:3px;
+            padding-bottom:3px;
+            .dropdown-item{
+                font-size:14px;
+                line-height:16px;
+                padding-left:18px;
+            }
+        }
+        .language-btn{
+            width:34px;
+            height:34px;
+        }
+        button:focus {
+          outline: none;
+        }
+    }
+
+    .mobile{
+        display:none;
+    }
+
+    .language-menu{
+        display:none;
+    }
+
 
 // /*==================  Stuck menu  ======================*/
 // $stuck-bg: #fff;

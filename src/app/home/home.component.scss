@@ -61,7 +61,7 @@ $padding_top:30px;
 
 
 #home-carousel{
-    height:491px;
+    height:460px;
 
     .carousel-inner{
         height:100%;
@@ -71,8 +71,8 @@ $padding_top:30px;
                 position: absolute;
                 top:20%;
                 color: #ffffff;
-                padding-left:200px;
-                padding-right:200px;
+                padding-left:300px;
+                padding-right:300px;
                 text-align:center;
 
                 h2{
@@ -92,7 +92,7 @@ $padding_top:30px;
 }
 
 
-$service_height:600px;
+$service_height:500px;
 $service_container_height:$service_height - $padding_top;
 
 .service-section{
