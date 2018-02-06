@@ -21,17 +21,24 @@ $light-gray: #f6f6f6;
     .service-groups{
         padding-top:30px;
         text-align:left;
-    }
-
-    .service-group{
-        p{
-            line-height:24px;
-            font-size:13px;
-            font-weight:300;
-            color:#8d939b;
-            margin-bottom: 10px;
+        .col-sm-4{
+            padding-right:0px;
+        }
+        .service-box{
+            .title-md{
+                font-size:18px;
+            }
+            p{
+                line-height:22px;
+                font-size:16px;
+                font-weight:300;
+                color:#8d939b;
+                margin-bottom: 8px;
+            }
         }
     }
+
+
 
 	.primary-text{
 		color: #9ca1a8;

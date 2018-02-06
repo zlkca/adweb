@@ -43,6 +43,27 @@
     "EMAIL":"邮箱",
     "PHONE_NUM":"电话号码",
 
+    "GENERAL_TEMPLATE":"通用模版程序",
+    "STATIC_PAGE_DESIGN":"静态网页设计（5页）",
+    "PAGE_ADJUSTMENT":"网页调整（5处）",
+    "GOOGLE_OR_BING_MAP":"谷歌或微软地图",
+    "FREE_HOSTING_DOMAIN":"免费主机和域名（1年）",
+    "FREE_TRAINING":"免费网站使用课程",
+    "MOBILE_VERSION":"手机版本(可选项$299)",
+
+    "MEMBERSHIP_SYSTEM":"会员系统+管理员网站",
+    "MULTI_LANG":"多国语言（中英文）",
+    "STATIC_PAGE_DESIGN2":"静态网页设计（15页）",
+    "PAGE_ADJUSTMENT2":"网页调整（15处）",
+    "PAYMENT_SYSTEM":"支付系统",
+    "FREE_UPGRADE2":"免费升级系统（1年）",
+    "MOBILE_VERSION2":"手机版本(可选项 $499)",
+
+    "STATIC_PAGE_DESIGN3":"静态网页设计（25页）",
+    "PAGE_ADJUSTMENT3":"网页调整（25处）",
+    "MOBILE_VERSION3":"手机版本(可选项 $699)",
+    "FREE_SSL_ENCRYPT":"免费SSL加密（1年）",
+
     "CREATE":"创建",
     "SIGNUP":"注册",
     "LOGOUT":"退出",

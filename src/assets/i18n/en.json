@@ -40,6 +40,27 @@
     "EMAIL":"Email",
     "PHONE_NUM":"Phone Number",
 
+    "GENERAL_TEMPLATE":"General Template",
+    "STATIC_PAGE_DESIGN":"Web Page Design (5 pages)",
+    "PAGE_ADJUSTMENT":"Page Adjustment(5 places)",
+    "GOOGLE_OR_BING_MAP":"Google or Bing Map",
+    "FREE_HOSTING_DOMAIN":"Free Hosting and Domain(1 year)",
+    "FREE_TRAINING":"Free Course of How to use the site",
+    "MOBILE_VERSION":"Mobile version(Plus $299)",
+
+    "MEMBERSHIP_SYSTEM":"Membership System + Admin Site",
+    "MULTI_LANG":"Multi-Language",
+    "STATIC_PAGE_DESIGN2":"Web Page Design(15 pages)",
+    "PAGE_ADJUSTMENT2":"Page Adjustment (15 places)",
+    "PAYMENT_SYSTEM":"Payment Gateway",
+    "FREE_UPGRADE2":"Free Upgrade System(1 Year)",
+    "MOBILE_VERSION2":"Mobile version(Plus $499)",
+    
+    "STATIC_PAGE_DESIGN3":"Web Page Design (25 pages)",
+    "PAGE_ADJUSTMENT3":"Page Adjustment (25 places)",
+    "MOBILE_VERSION3":"Mobile Version(Plus $699)",
+    "FREE_SSL_ENCRYPT":"Free SSL Encrypt（1 Year）",
+
     "CREATE":"Create",
     "SIGNUP":"Sign Up",
     "LOGOUT":"Logout",
