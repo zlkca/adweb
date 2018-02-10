@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express')
 //const cors = require('cors')
 const cfg = require('./config')
-
+const path = require('path')
 const app = express()
 
 
@@ -35,7 +35,9 @@ app.use(cookieParser('mysecret', {maxAge: 1200*1000}));
 //console.log(__dirname + '/../dist');
 
 app.use(express.static(__dirname + '/../dist'));
-
+app.get('*',function(req,res){
+    res.sendFile(path.join(__dirname, '../dist/index.html'));
+});
 
 // var whitelist = ['http://yocompute.com', 'http://www.yocompute.com']
 // var corsOptions = {
