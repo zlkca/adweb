@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import {TranslateService} from '@ngx-translate/core';
-
+declare var $: any;
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -8,7 +9,7 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class HeaderComponent implements OnInit {
 
-	constructor(private translateServ:TranslateService) {
+	constructor(private router: Router, private translateServ:TranslateService) {
 
 	}
 
@@ -16,11 +17,17 @@ export class HeaderComponent implements OnInit {
 		
 	}
   
-    toEnglish(){
-        this.translateServ.use('en');
-    }
+  closeNavMenu(){
+      $('.navbar-collapse').removeClass('show');
+  }
+  
+  toPage(url){
+      this.closeNavMenu();
+      this.router.navigate([url]);
+  }
 
-    toChinese(){
-        this.translateServ.use('cn');
-    }
+  changeLanguage(code){
+      this.closeNavMenu();
+      this.translateServ.use(code);
+  }
 }
