@@ -4,8 +4,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 //import { AppRoutingModule } from './app-routing.module';
-import { AgmCoreModule } from '@agm/core';
-import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
@@ -72,10 +70,6 @@ const appRoutes: Routes = [
     RouterModule.forRoot(
       appRoutes,
       {enableTracing: true}),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCTdBBGnv3QEyPeGKc0aRhH9Z_wc-Qcd18'
-    }),
-    AgmSnazzyInfoWindowModule,
     TranslateModule.forRoot({
         loader: {
             provide: TranslateLoader,
