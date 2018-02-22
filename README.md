@@ -2,7 +2,7 @@
 Minimum Angular5 website for business 
 
 ## Requirement
-angularjs 4
+angularjs 5
 
 ## Set up
 
