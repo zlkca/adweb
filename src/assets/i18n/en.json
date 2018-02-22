@@ -28,9 +28,9 @@
 
     "PRICE_LIST":"Price List",
     "PRICE_SUBTITLE":"Competitive service and price",
-    "SHOWCASE_WEB":"Business Showcase Web",
-    "STANDARD_ESHOP":"Standard E-Shop",
-    "ADVANCED_ECOMMERCE":"Advanced E-Commerce",
+    "SHOWCASE_WEB":"Business Show",
+    "STANDARD_ESHOP":"Standard Site",
+    "ADVANCED_ECOMMERCE":"Advanced Site",
 
     "USERNAME_OR_EMAIL":"Username or Email",
     "PASSWORD":"Password",
@@ -41,25 +41,25 @@
     "PHONE_NUM":"Phone Number",
 
     "GENERAL_TEMPLATE":"General Template",
-    "STATIC_PAGE_DESIGN":"Web Page Design (5 pages)",
+    "STATIC_PAGE_DESIGN":"Page Design (5 pages)",
     "PAGE_ADJUSTMENT":"Page Adjustment(5 places)",
     "GOOGLE_OR_BING_MAP":"Google or Bing Map",
-    "FREE_HOSTING_DOMAIN":"Free Hosting and Domain(1 year)",
-    "FREE_TRAINING":"Free Course of How to use the site",
+    "FREE_HOSTING_DOMAIN":"Free Hosting & Domain(1 year)",
+    "FREE_TRAINING":"Free Course of the site",
     "MOBILE_VERSION":"Mobile version(Plus $299)",
 
-    "MEMBERSHIP_SYSTEM":"Membership System + Admin Site",
+    "MEMBERSHIP_SYSTEM":"Membership + Admin Site",
     "MULTI_LANG":"Multi-Language",
-    "STATIC_PAGE_DESIGN2":"Web Page Design(15 pages)",
+    "STATIC_PAGE_DESIGN2":"Page Design(15 pages)",
     "PAGE_ADJUSTMENT2":"Page Adjustment (15 places)",
     "PAYMENT_SYSTEM":"Payment Gateway",
-    "FREE_UPGRADE2":"Free Upgrade System(1 Year)",
+    "FREE_UPGRADE2":"Free Upgrade System(1 year)",
     "MOBILE_VERSION2":"Mobile version(Plus $499)",
     
-    "STATIC_PAGE_DESIGN3":"Web Page Design (25 pages)",
+    "STATIC_PAGE_DESIGN3":"Page Design (25 pages)",
     "PAGE_ADJUSTMENT3":"Page Adjustment (25 places)",
     "MOBILE_VERSION3":"Mobile Version(Plus $699)",
-    "FREE_SSL_ENCRYPT":"Free SSL Encrypt（1 Year）",
+    "FREE_SSL_ENCRYPT":"Free SSL Encrypt（1 year）",
 
     "CREATE":"Create",
     "SIGNUP":"Sign Up",
@@ -205,5 +205,12 @@
     "INVALID_FORM":"Please fill in all the blanks",
     "SEND_SUCCESSFULLY":"Send Successfully!",
     "SEND_FAIL":"Send Fail!",
-    "SHOPPINGCART_EMPTY":"Your Shopping Cart is Empty"
+    "SHOPPINGCART_EMPTY":"Your Shopping Cart is Empty",
+    
+    "MONTHLY_PLAN":"Monthly Plan",
+    "FREE_DEV_AD":"Free for development fee (Limited to Standard Site)",
+    "MONTH":"Month",
+    "MIN_CONTRACT":"Minimum 6 months contract",
+    "CANCEL_FREE":"Free cancel contract (After 6 months)",
+    "DEV_FEE":"Design Fee"
 }
