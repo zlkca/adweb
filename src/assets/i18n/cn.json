@@ -3,14 +3,37 @@
     "SERVICE":"服务",
     "PORTFOLIO":"案例",
     "CONTACT_US":"联系我们",
-    "SLIDE1_TITLE":"网站／手机程序设计开发和维护",
-    "SLIDE1_SUBTITLE":"我们成熟完整的解决方案可以帮助你迅速建立起网络营销平台。坚持创新，效率和品质，与合作伙伴和客户共同成长是我们的经营理念。",
-    "SLIDE2_TITLE":"电子商务网站开发",
-    "SLIDE2_SUBTITLE":"专业域名部署，主机服务，亚马逊云服务部署，网站／手机程序设计和维护服务。",
-    "SLIDE3_TITLE":"设计来自专业，智慧和敏捷的团队",
-    "SLIDE3_SUBTITLE":"专注于主流前沿技术和管理我们保持低成本，完美地融合科技和商业。",
+
+    "SLIDE1_TITLE":"在创业和教育之间架设一座桥梁",
+    "SLIDE1_SUBTITLE":"我们是连接企业，教育和专家的枢纽，我们用专业技术实践创造力和优质",
+    "SLIDE2_TITLE":"帮你打造年轻有朝气的团队",
+    "SLIDE2_SUBTITLE":"我们的社区在管理和技术专家的指导下，帮助你的创业项目打造最年轻，专业的技术团队",
+    "SLIDE3_TITLE":"你需要资金，但更需要执行",
+    "SLIDE3_SUBTITLE":"资金不足不是研发停滞不前的理由，在这里你用最低的投入开始最高效的执行，每天不间断",
+
     "WHAT_WE_DO":"质优价廉的开发业务",
     "WHAT_WE_DO_SUBTITILE":"我们根据您的商业需求为您量身定制稳定可靠的网络平台。",
+
+    "HOW_IT_WORKS":"我们是如何运作的？",
+    "HOW_IT_WORKS_SUBTITILE":"我们是一个软件开发导向的社区，成员由大量的优秀IT行业的管理，技术专业人士，创业导师以及优秀的名校毕业生组成，社区拥有大量共享办公场地，成熟的技术解决方案。作为初创公司的创始人，你可以用极低的价格利用我们的场地，专家，技术和人才，组建你自己的开发团队，完成你的产品原型，挑选未来的技术开发和管理人才。",
+
+    "COMPARATION":"比较",
+    "TRADITIONAL_MODE":"传统模式",
+    "OUTSOURCING_MODE":"外包模式",
+    "OUR_SOLUTION":"我们的解决方案",
+
+    "HIGH_COST_LABOUR_HARD_STAY":"高价人工, 发现和留住人才代价高昂",
+    "HIGH_COST_OFFICE":"高昂的办公场地租金",
+    "HIGH_QUALITY":"高质量的技术和产品，维护扩展简单",
+    "LOW_RISK_PM":"低风险,易监控的专业项目管理",
+    "LOW_FLEXIBILITY":"灵活性差，很难再更改终止人员，场地和项目",
+    "LOW_COST_LABOUR_HARD_STAY":"低价的人工, 发现和留住人才困难",
+    "LOW_COST_LABOUR_EASY_STAY":"低价的人工, 发现和留住人才简单高效",
+    "LOW_COST_OFFICE":"低廉的办公场地租金",
+    "LOW_QUALITY":"低质量的技术和产品，维护扩展困难",
+    "HIGH_RISK_PM":"高风险，难监控的项目管理",
+    "HIGH_FLEXIBILITY":"灵活性好，随时更改终止人员，场地和项目",
+
     "MOBILE_DEV":"移动开发",
     "WEBSITE_DEV":"网站开发",
     "SW_CONSULTING":"软件咨询",
@@ -220,5 +243,4 @@
     "MIN_CONTRACT":"最短租期6个月",
     "CANCEL_FREE":"6个月之后随时免费解除合同",
     "DEV_FEE":"开发费"
-
 }
