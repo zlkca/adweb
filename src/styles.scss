@@ -12,6 +12,10 @@ $primary-focus-color:#11759a;
 $item-height:40px;
 
 body{
+    .page{
+        margin-top:67px;
+    }
+    
     .btn-holder{
         width:100%;
         min-height:36px;
@@ -230,6 +234,7 @@ body{
         margin-top:20px;
     }
 }
+
 agm-map {
   height: 400px;
 }
