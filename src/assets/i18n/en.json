@@ -3,6 +3,10 @@
     "SERVICE":"Service",
     "PORTFOLIO":"Portfolio",
     "CONTACT_US":"Contact Us",
+
+    "MAIN_TITLE":"Developers for Startups in Toronto",
+    "MAIN_SUBTITLE":"Better developer team which startups can hire and afford to accelerate their project.",
+
     "SLIDE1_TITLE":"Use Global resource to accelerate startups",
     "SLIDE1_SUBTITLE":"We bridge Chinese investors and North America startups, and much more. Are you ready to boost your project?",
     "SLIDE2_TITLE":"Grow your business with China speed",
@@ -10,7 +14,7 @@
     "SLIDE3_TITLE":"Good idea need implement quick",
     "SLIDE3_SUBTITLE":"Today, China have lots of big investors, completed R&D supply chain, lower cost, smart technology human resource, using China resource accelerate your project significantly.",
     "WHAT_WE_DO":"How to start?",
-    "WHAT_WE_DO_SUBTITILE":"Make an appointment and tell us about your startup business, it is free. We will help you to find a chinese investor, and it is possible to help you create a China based R&D center to accelerate your project, or create a branch to expand your business.",
+    "WHAT_WE_DO_SUBTITILE":"Post a job to tell us about your project, it is free. We will match an architecture/project manager and right developers from our talent pool, then work on your project from remote or in your office with high quality and lowest cost.",
     "MOBILE_DEV":"Mobile Developement",
     "WEBSITE_DEV":"Website Developement",
     "SW_CONSULTING":"Software Consulting",

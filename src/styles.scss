@@ -10,10 +10,11 @@ $primary-color:#003e7e;
 $primary-focus-color:#11759a;
 
 $item-height:40px;
+$header_height:64px;
 
 body{
     .page{
-        margin-top:67px;
+        margin-top:$header_height;
     }
     
     .btn-holder{
