@@ -17,14 +17,14 @@ $padding_top:30px;
         text-align:center;
 
         h2{
-            font-size: 52px;
+            font-size: 56px;
             width:100%;    
         }
 
         p{
             margin-top:16px;
             color: #ffffff;
-            font-size: 20px;
+            font-size: 22px;
             width: 60%;
             margin-left: auto;
             margin-right: auto;
@@ -130,7 +130,7 @@ $padding_top:30px;
         .caption{
             padding-top:80px;
             h2{
-                font-size: 28px;
+                font-size: 32px;
             }
 
             p{
@@ -198,11 +198,12 @@ $padding_top:30px;
 @media  (max-width: 767px) and (orientation:portrait){
     .main{
         img{
-            height:300px;
+            height:240px;
         }
         
         .caption{
-            padding-top:0px;
+            padding-top: 0;
+            margin-top: -60px;
         }
     }
 }

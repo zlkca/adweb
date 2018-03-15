@@ -1,13 +1,14 @@
-// $header_height:64px;
 
 header{
     .navbar{
-        // height:$header_height;
+        .navbar-toggler{
+            padding:5px;
+            border-radius: 2px;
+        }
 
         .navbar-brand{
             padding-top:10px;
             padding-left:160px;
-            // height:$header_height;
 
             .logo-icon{
                 width:40px;
@@ -81,8 +82,6 @@ header{
     .language-menu{
         display:none;
     }
-
-
 
 
     @media (max-width: 767px){
