@@ -4,16 +4,27 @@
 
         <div class="title-xl">{{'WHY_CHOOSE_US'|translate}}</div>
         <div class="row reason-groups">
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="title-md">{{'REASON_TITLE_1'|translate}}</div>
+          <div class="col-md-4 col-sm-12 col-xs-12 column">
+            <div class="title-md">
+              <!-- <span class="fa fa-thumbs-up"></span> -->
+              {{'REASON_TITLE_1'|translate}}
+            </div>
             <p>{{'REASON_1'|translate}}</p>
           </div>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="title-md">{{'REASON_TITLE_2'|translate}}</div>
+          <div class="col-md-4 col-sm-12 col-xs-12 column">
+            
+            <div class="title-md">
+              <!-- <span class="fa fa-usd"></span> -->
+              {{'REASON_TITLE_2'|translate}}
+            </div>
             <p>{{'REASON_2'|translate}}</p>
           </div>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="title-md">{{'REASON_TITLE_3'|translate}}</div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12 column">
+            <div class="title-md">
+              <!-- <span class="fa fa-cog"></span> -->
+              {{'REASON_TITLE_3'|translate}}
+            </div>
             <p>{{'REASON_3'|translate}}</p>
           </div>
         </div>
@@ -23,8 +34,9 @@
 <!--           <div class="col-md-5 col-sm-12 col-xs-12 left-side">
             <img src="/assets/home/responsive-design.png" alt="Resposive Design"/>
           </div> -->
-          <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="col-md-12 col-sm-12 col-xs-12 column">
               <p>{{'WHAT_WE_DO_SUBTITILE'|translate}}</p>
+              <div class="btn" (click)="postProject()">Post Project</div>
 <!--             <div class="row service-groups">
               <div class="col-sm-4 col-md-4 col-xs-4 service-box">
                 <h6 class="title-md">
