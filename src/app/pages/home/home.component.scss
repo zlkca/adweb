@@ -72,7 +72,7 @@ $padding_top:30px;
 
 .core-section{
     position: relative;
-    background-image: url('../../assets/home/parallax1.jpg');
+    // background-image: url('../../assets/home/parallax1.jpg');
     height: 452px;
     transform: translate3d(0px, -44.1891px, 0px);
     color: #ffffff;
@@ -109,9 +109,6 @@ $padding_top:30px;
     }
 }
 
-.portfolio-section{
-    background-image: url(../../assets/home/parallax2.jpg);
-}
 
 @media (min-width: 1200px){
 

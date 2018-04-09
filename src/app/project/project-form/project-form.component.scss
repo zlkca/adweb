@@ -1,0 +1,18 @@
+.project-form{
+    margin-top:70px;
+
+    .btn{
+        width:200px;
+    }
+
+    .row{
+        padding:15px 10px;
+        width:400px;
+    }
+}
+
+@media (max-width: 767px){
+    .row{
+        width:100%;
+    }
+}

@@ -1,0 +1,29 @@
+<div class="project-form">
+    <div class="container">
+      <form #projectForm="ngForm">
+          <div class="row">
+              <div class="label-sm">{{'EMAIL'|translate}}</div>
+              <input [(ngModel)]="email"  name="email" type="text">
+          </div>
+          <div class="row">
+              <div class="label-sm">{{'DESCRIPTION'|translate}}</div>
+              <textarea rows="8" cols="50" [(ngModel)]="description"  name="description"></textarea>
+          </div>
+          <div class="row">
+              <div class="label-sm">{{'TELEPHONE_NUMBER'|translate}}</div>
+              <input [(ngModel)]="phone"  name="phone" type="text">
+          </div>
+          <div class="row">
+              <div class="label-sm">{{'BUDGET'|translate}}</div>
+              <input [(ngModel)]="budget"  name="budget" type="text">
+          </div>
+          <div class="row">
+              <div class="label-sm">{{'DEADLINE'|translate}}</div>
+              <input [(ngModel)]="deadline"  name="deadline" type="text">
+          </div>
+          <div class="row btn-holder">
+              <button class="btn btn-primary" (click)="saveProject()" type="submit" block>{{'SUBMIT'|translate}}</button>
+          </div>
+        </form>
+    </div>
+</div>

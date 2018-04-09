@@ -6,14 +6,17 @@ import { FormsModule } from '@angular/forms';
 //import { AppRoutingModule } from './app-routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { PagesModule } from './pages/pages.module';
 import { ProjectModule } from './project/project.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+
 import { ServiceComponent } from './service/service.component';
 import { ProjectFormComponent } from './project/project-form/project-form.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -66,9 +69,6 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent,
-    ContactComponent,
-    PortfolioComponent,
     ServiceComponent,
     FeedbackComponent
   ],
@@ -87,7 +87,8 @@ const appRoutes: Routes = [
     NgbModule.forRoot(),
     HttpClientModule,
     FormsModule,
-    ProjectModule
+    ProjectModule,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
