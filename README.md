@@ -1,8 +1,8 @@
 # adweb
-angular4 website for advertisement 
+Minimum Angular5 website for business 
 
 ## Requirement
-angularjs 4
+angularjs 5
 
 ## Set up
 
@@ -13,5 +13,8 @@ angularjs 4
 
 ## Start Server:
 ```
-> ng serve --open
+> ng serve
 ```
+
+## License:
+MIT
