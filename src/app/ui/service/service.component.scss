@@ -1,4 +1,4 @@
-$service_height:500px;
+$service_height:600px;
 $padding_top:30px;
 $service_container_height:$service_height - $padding_top;
 $light-gray: #f6f6f6;
@@ -6,8 +6,11 @@ $light-gray: #f6f6f6;
 
 .service-section{
     height:$service_height;
-    padding-top:30px;
     background-color:$light-gray;
+
+    .container{
+        padding-top:30px;
+    }
 
     img{
         width:420px;
@@ -16,6 +19,40 @@ $light-gray: #f6f6f6;
 	.sub-title{
         padding-top:38px;
         text-align:left;
+    }
+
+    .reason-groups, .how-groups{
+        padding-bottom:15px;
+
+        .column{
+            padding-top:10px;
+            padding-bottom:15px;
+
+            .btn{
+                width:200px;
+            }
+
+            span.fa{
+                font-size:30px;
+            }
+
+            p{
+                color:#7e7e7e;
+                font-family:"Microsoft Yahei", 'Raleway', sans-serif;
+                font-size: 16px;
+                font-weight:400;
+                line-height:24px;
+                text-align:left;
+            }
+        }
+    }
+
+    .reason-groups{
+        .column{
+            p{
+                padding-top:15px;
+            }
+        }
     }
 
     .service-groups{
@@ -37,8 +74,6 @@ $light-gray: #f6f6f6;
             }
         }
     }
-
-
 
 	.primary-text{
 		color: #9ca1a8;
@@ -119,48 +154,26 @@ $light-gray: #f6f6f6;
 }
 
 @media (max-width: 767px){
+
     .service-section{
         width:100%;
-        height:300px;
-        img{
-            display:none;
-        }
-        .left-side{
-            display: none;
-        }
-        .right-side{
-            width:100%;
-            height:200px;
-            margin:0px;
-            padding-left:28px;
-            padding-right:28px;
+        height:auto;
 
-            .title-xl{
-                font-size:28px;
-            }
-            .title-bg{
-                font-size:14px;
-            }
-
-        }
-        .service-group, .group-layout{
+        .service-group{
             flex-wrap: nowrap;
         }
-        
-        .container{
-            padding:0px;
+        .title-xl{
+            font-size: 26px;
         }
         img{
             width:90%;
         }
     }
-}
 
-@media (max-width: 767px) and (orientation:portrait){
     .price-section{
         .container{
             width:100%;
-            padding-left:10px;
+            padding-left:0px;
             padding-right:0px;
             max-width:none;
             .row{
@@ -168,7 +181,7 @@ $light-gray: #f6f6f6;
                 margin-right:0px;
             }
             .col-xs-4{
-                width:100%;
+                width:33%;
                 padding-left: 0px;
                 padding-right: 0px;
             }
@@ -189,17 +202,17 @@ $light-gray: #f6f6f6;
     .price-section{
         .container{
             width:100%;
-            padding-left:10px;
+            padding-left:0px;
             padding-right:0px;
             max-width:none;
             .row{
                 margin-left:0px;
                 margin-right:0px;
-                padding-left:25px;
             }
             .col-xs-4{
                 width:33%;
                 padding-left: 0px;
+                padding-right: 0px;
             }
             .price-box{
                 min-height:516px;

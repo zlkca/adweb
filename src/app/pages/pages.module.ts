@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { UiModule } from '../ui/ui.module';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -22,6 +23,7 @@ export function HttpLoaderFactory(http: HttpClient) {
             deps: [HttpClient]
         }
     }),
+    UiModule
   ],
   declarations: [HomeComponent, PortfolioComponent, ContactComponent],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]

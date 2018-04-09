@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FeedbackComponent } from './feedback/feedback.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ServiceComponent } from './service/service.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -24,8 +26,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         }
     }),
   ],
-  exports:[HeaderComponent, FooterComponent, FeedbackComponent],
-  declarations: [HeaderComponent, FooterComponent, FeedbackComponent],
+  exports:[HeaderComponent, FooterComponent, FeedbackComponent, PortfolioComponent, ServiceComponent],
+  declarations: [HeaderComponent, FooterComponent, FeedbackComponent, PortfolioComponent, ServiceComponent],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class UiModule { }

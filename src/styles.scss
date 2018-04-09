@@ -10,8 +10,13 @@ $primary-color:#003e7e;
 $primary-focus-color:#11759a;
 
 $item-height:40px;
+$header_height:64px;
 
 body{
+    .page{
+        margin-top:$header_height;
+    }
+    
     .btn-holder{
         width:100%;
         min-height:36px;
@@ -68,8 +73,8 @@ body{
 
     .title-xl{
         font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
-        font-size: 50px;
-        font-weight: 300;
+        font-size: 40px;
+        font-weight: 500;
         line-height: 60px;
         color: #8dbf41;//#9ca1a8;
     }
@@ -77,7 +82,7 @@ body{
     .title-lg{
         font-family: "Roboto", "Microsoft Yahei", Helvetica, Arial, sans-serif;
         font-size: 40px;
-        font-weight: 700;
+        font-weight: 500;
         color: #9ca1a8;    
     }
 
@@ -230,6 +235,7 @@ body{
         margin-top:20px;
     }
 }
+
 agm-map {
   height: 400px;
 }

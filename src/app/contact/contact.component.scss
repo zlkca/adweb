@@ -1,5 +1,5 @@
 .right-side{
-	padding-top:50px;
+	padding-top:54px;
 }
 
 .left-side{
@@ -8,14 +8,14 @@
 	}
 }
 
-@media (min-width:576px) and (max-width: 767px){
+@media (max-width: 767px){
 	.right-side{
 		padding-top:10px;
 	}
-}
-
-@media (max-width:575px){
-	.right-side{
+	.title-lg{
+		font-size:28px;
+	}
+	.contact-section{
 		padding-top:10px;
 	}
 }
