@@ -4,20 +4,25 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 //import { AppRoutingModule } from './app-routing.module';
-import { AgmCoreModule } from '@agm/core';
-import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
+
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+import { UiModule } from './ui/ui.module';
+import { PagesModule } from './pages/pages.module';
+
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { ContactComponent } from './contact/contact.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+
+import { HeaderComponent } from './ui/header/header.component';
+import { FooterComponent } from './ui/footer/footer.component';
+import { FeedbackComponent } from './ui/feedback/feedback.component';
+
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+
 import { ServiceComponent } from './service/service.component';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { FeedbackComponent } from './feedback/feedback.component';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -34,11 +39,11 @@ const appRoutes: Routes = [
     component: HomeComponent,
     data: { title: 'Home' }
   },
-  {
-    path: 'service',
-    component: ServiceComponent,
-    data: { title: 'Services' }
-  },
+  // {
+  //   path: 'service',
+  //   component: ServiceComponent,
+  //   data: { title: 'Services' }
+  // },
     {
     path: 'portfolio',
     component: PortfolioComponent,
@@ -59,23 +64,23 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    HomeComponent,
-    ContactComponent,
-    PortfolioComponent,
-    ServiceComponent,
-    FeedbackComponent
+    // HeaderComponent,
+    // FooterComponent,
+    // HomeComponent,
+    // ContactComponent,
+    // PortfolioComponent,
+    //ServiceComponent,
+    // FeedbackComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(
       appRoutes,
       {enableTracing: true}),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCTdBBGnv3QEyPeGKc0aRhH9Z_wc-Qcd18'
-    }),
-    AgmSnazzyInfoWindowModule,
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyCTdBBGnv3QEyPeGKc0aRhH9Z_wc-Qcd18'
+    // }),
+    // AgmSnazzyInfoWindowModule,
     TranslateModule.forRoot({
         loader: {
             provide: TranslateLoader,
@@ -85,7 +90,9 @@ const appRoutes: Routes = [
     }),
     NgbModule.forRoot(),
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    UiModule,
+    PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

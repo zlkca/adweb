@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subject } from 'rxjs/Subject';
 import { debounceTime } from 'rxjs/operator/debounceTime';
-import { UserService } from '../shared/user.service';
+import { UserService } from '../../shared/user.service';
 
 @Component({
   selector: 'app-feedback',
@@ -50,8 +50,6 @@ export class FeedbackComponent implements OnInit {
       }
 
       self.changeSuccessMessage();
-
-
 
       this.userServ.postFeedback(this.username, this.email, this.phone, this.message).subscribe(
           (data) => {

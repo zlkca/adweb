@@ -9,7 +9,7 @@ declare var $: any;
 })
 export class HeaderComponent implements OnInit {
 
-	constructor(private router: Router, private translateServ:TranslateService) {
+	constructor(private router: Router, private translate:TranslateService) {
 
 	}
 
@@ -28,6 +28,6 @@ export class HeaderComponent implements OnInit {
 
   changeLanguage(code){
       this.closeNavMenu();
-      this.translateServ.use(code);
+      this.translate.use(code);
   }
 }
