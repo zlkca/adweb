@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { ServiceComponent } from '../../ui/service/service.component';
-import { ContactComponent } from '../../contact/contact.component';
 import { PortfolioComponent } from '../../ui/portfolio/portfolio.component';
+import { FeedbackComponent } from '../../ui/feedback/feedback.component';
 
 @Component({
   selector: 'page-home',
