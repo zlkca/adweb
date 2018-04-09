@@ -1,73 +1,48 @@
 $light-gray: #f6f6f6;
 $padding_top:30px;
+$mobile_carousel_h:240px;
 
 .link{
     color: #8dbf41;
     font-size: 18px;
 }
 
-.main{
-    .caption{
-        width:100%;
-        position: absolute;
-        top:30%;
-        color: #ffffff;
-        margin-left:auto;
-        margin-right:auto;
-        text-align:center;
+#home-carousel{
+    height:460px;
 
-        h2{
-            font-size: 56px;
-            width:100%;    
-        }
+    .carousel-inner{
+        height:100%;
+        
+        .carousel-item{
+            width:100%;
+            margin-left:auto;
+            margin-right:auto;
 
-        p{
-            margin-top:16px;
-            color: #ffffff;
-            font-size: 22px;
-            width: 60%;
-            margin-left: auto;
-            margin-right: auto;
+            .caption{
+                position: absolute;
+                top:20%;
+                color: #ffffff;
+                // padding-left:300px;
+                // padding-right:300px;
+                text-align:center;
+                width:100%;
+                margin-left:auto;
+                margin-right:auto;
+                h2{
+                    font-size: 50px;
+                    width:100%;    
+                }
+
+                p{
+                    margin-top:16px;
+                    color: #ffffff;
+                    font-size: 20px;
+                    width:100%;
+                }
+            }
         }
     }
 }
-
-
-// #home-carousel{
-//     height:460px;
-//     .carousel-control-prev, .carousel-control-next{
-//         width:7%;
-//     }
-//     .carousel-inner{
-//         height:100%;
-        
-//         .carousel-item{
-//             .caption{
-//                 width:100%;
-//                 position: absolute;
-//                 top:20%;
-//                 color: #ffffff;
-//                 margin-left:auto;
-//                 margin-right:auto;
-//                 text-align:center;
-
-//                 h2{
-//                     font-size: 50px;
-//                     width:100%;    
-//                 }
-
-//                 p{
-//                     margin-top:16px;
-//                     color: #ffffff;
-//                     font-size: 20px;
-//                     width: 60%;
-//                     margin-left: auto;
-//                     margin-right: auto;
-//                 }
-//             }
-//         }
-//     }
-// }
 
 
 .core-section{
@@ -109,6 +84,10 @@ $padding_top:30px;
     }
 }
 
+.portfolio-section{
+    // background-image: url(../../assets/home/parallax2.jpg);
+}
+
 
 @media (min-width: 1200px){
 
@@ -118,49 +97,37 @@ $padding_top:30px;
 
 }
 
-@media (max-width: 767px){
-    .main{
-        img{
-            height:300px;
-        }
-        
-        .caption{
-            padding-top:80px;
-            h2{
-                font-size: 32px;
-            }
 
-            p{
-                width:80%;
-                font-size:14px;
-            }
-        }
+@media (max-width: 767px){
+    .text-center{
+        text-align: center;
+    }
+    .camera_container{
+        height:240px;
     }
 
-
     #home-carousel{
-        height:270px;
+        display:block;
+        height:$mobile_carousel_h;
+
         .carousel-inner{
             .carousel-item{
+                width:100%;
                 img{
-                    height:270px;
+                    height:$mobile_carousel_h;
                 }
+                
                 .caption{
+                    width:100%;
                     h2{
-                        font-size: 28px;
+                        font-size:20px;
                     }
-
                     p{
-                        width:80%;
                         font-size:14px;
                     }
                 }
             }
         }
-    }
-
-    .text-center{
-        text-align: center;
     }
 
     .service-section{
@@ -186,21 +153,8 @@ $padding_top:30px;
             width:90%;
         }
     }
-
     .core-section, .vision-section{
         display:none;
     }
 }
 
-@media  (max-width: 767px) and (orientation:portrait){
-    .main{
-        img{
-            height:240px;
-        }
-        
-        .caption{
-            padding-top: 0;
-            margin-top: -60px;
-        }
-    }
-}
